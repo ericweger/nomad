@@ -1,0 +1,47 @@
+Colors
+    Primary color: #222222
+        title
+        h1
+        h2
+        h3
+        links
+        icons
+        menus
+
+    Secondary color: #ababab
+        p
+        current active page in menu
+
+    Page background color: #ffffff
+    
+Fonts
+    Sans-serif 1 (originally Aktiv Grotesk)
+        title: 20px, all-caps
+    
+    Sans-serif 2 (originally Brandon Grotesk)
+        h1: 26px, bold, all-caps
+    
+    Sans-serif 3 (origninally Proxima Nova)
+        p: 12px, 300 weight
+        
+    Serif (originally Arno Pro)
+        menu: 12px, all-caps
+        h2: 11.5px, bold, all-caps
+        h3: 13px
+
+Breakpoints
+    Mobile Header and menu
+        max-width = 750px
+
+Images
+    Favicon
+        https://www.nomadparking.space/favicon.ico
+    
+    Hero Image
+        https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6daa1893fc04d499502b2/1488378536897/?format=1000w
+    
+    Section Images (in order)
+        https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6b7dac534a5de913292b1/1488369632129/mike-petrucci-57642.jpg?format=750w
+        https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6d9d2d2b857a10ea52480/1488378337345/?format=750w
+        https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6d9e8be6594765b4f1e8f/1488378362308/Consult.jpeg?format=750w
+
