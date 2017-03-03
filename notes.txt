@@ -32,6 +32,9 @@ Fonts
 Breakpoints
     Mobile Header and menu
         max-width = 750px
+    
+    Full-width section styles
+        max-width = 623?
 
 Images
     Favicon
@@ -46,8 +49,9 @@ Images
         https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6d9e8be6594765b4f1e8f/1488378362308/Consult.jpeg?format=750w
 
 Issues
-	Paragraph text does not have proper contrast
-	Title changes font on smaller screens
+	Paragraph text does not have proper contrast - Done
+	Title changes font on smaller screens - Done
+    L/R section ordering on mobile
 	
 To-do
 	Mobile menu open/close buttons
