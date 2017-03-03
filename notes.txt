@@ -8,7 +8,7 @@ Colors
         icons
         menus
 
-    Secondary color: #ababab
+    Secondary color: #ababab -> change to #767676 for minimum contrast standards
         p
         current active page in menu
 
@@ -44,4 +44,26 @@ Images
         https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6b7dac534a5de913292b1/1488369632129/mike-petrucci-57642.jpg?format=750w
         https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6d9d2d2b857a10ea52480/1488378337345/?format=750w
         https://static1.squarespace.com/static/58ada70b9de4bbb92e91802a/t/58b6d9e8be6594765b4f1e8f/1488378362308/Consult.jpeg?format=750w
+
+Issues
+	Paragraph text does not have proper contrast
+	Title changes font on smaller screens
+	
+To-do
+	Mobile menu open/close buttons
+		Animation
+			rotates. middle burger bar becomes one stroke of X and other bars shrink to form the two halves of the cross stroke
+			
+
+Original site: Home page load times (seconds)
+	1.13
+	1.00
+	0.92951
+	1.11
+	1.18
+	1.00
+	1.08
+	1.14
+	0.89196
+	1.12
 
