@@ -16,6 +16,7 @@ Colors
     
 Fonts
     Sans-serif 1 (originally Aktiv Grotesk)
+        replace with Futura?
         title: 20px, all-caps
     
     Sans-serif 2 (originally Brandon Grotesk)

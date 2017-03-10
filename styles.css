@@ -45,9 +45,52 @@ h3>a {
     font-weight: 400;
 }
 
-nav label {
+.page-container {
+    margin: 0 3vw;
+    max-width: 1000px;
+}
+
+header {
+
+    margin: 56px 0;
+}
+
+header>* {
+    display: inline-block;
+}
+
+.title-section {
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav label, nav .submenu-item>a, .nav-item {
     font-size: 12px;
     text-transform: uppercase;
+}
+
+nav input {
+    display: none;
+}
+
+.submenu {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+}
+
+.submenu-item {
+    margin: 16px;
+}
+
+input:checked~.submenu, .nav-item>label:hover~.submenu, .submenu:hover {
+    display: block;
 }
 
 p {
@@ -57,8 +100,12 @@ p {
     font-size: 12px;
 }
 
-.page-container {
-    margin: 3vw;
+nav>* {
+    display: inline-block;
+}
+
+.hero-section {
+    text-align: center;
 }
 
 .horizontal-divider {
