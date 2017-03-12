@@ -25,6 +25,7 @@ h1 {
     font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 header h1 {
@@ -45,34 +46,57 @@ h3>a {
     font-weight: 400;
 }
 
+img {
+    width: 100%;
+}
+
 .page-container {
-    margin: 0 3vw;
-    max-width: 1000px;
+    margin: 0 36px;
+    width: 100%;
 }
 
 header {
-
+    text-align: center;
     margin: 56px 0;
+    position: relative;
+    height: max-content;
+    width: 100%;
 }
 
 header>* {
-    display: inline-block;
+    display: block;
 }
 
 .title-section {
+    position: absolute;
+    float: left;
+}
 
+.nav-section {
+    margin: auto;
+    text-align: center;
+    width: 400px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 400px;
 }
 
-nav label, nav .submenu-item>a, .nav-item {
-    font-size: 12px;
+.nav-item {
+    position: relative;
+}
+
+.nav-item label, .nav-item .submenu-item>a, .nav-item a {
+    font-size: 11px;
     text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.nav-item label:hover, .nav-item .submenu-item>a:hover, .nav-item a:hover {
+    color: #767676;
 }
 
 nav input {
@@ -83,13 +107,14 @@ nav input {
     display: none;
     background-color: #fff;
     position: absolute;
+    left: 0;
 }
 
 .submenu-item {
     margin: 16px;
 }
 
-input:checked~.submenu, .nav-item>label:hover~.submenu, .submenu:hover {
+input:checked~.submenu, .nav-item:hover .submenu, .submenu:hover {
     display: block;
 }
 
@@ -98,18 +123,31 @@ p {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1.2px
 }
 
 nav>* {
     display: inline-block;
 }
 
+main {
+    margin: auto;
+    max-width: 1600px;
+}
+
 .hero-section {
     text-align: center;
+    width: 66.6667%;
+    margin: auto;
+}
+
+.hero-section>*{
+    margin-bottom: 36px;
 }
 
 .horizontal-divider {
-    margin: 3vw 0;
+    margin: 36px 0;
 }
 
 .horizontal-divider hr {
@@ -117,6 +155,43 @@ nav>* {
     color: #767676;
     height: 1px;
     border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.content.right {
+    flex-direction: row-reverse;
+}
+
+.content .image {
+    flex-basis: 33.333%;
+}
+
+.content .image>img {
+
+
+}
+
+.content .text {
+    flex-basis: 66.667%
+}
+
+.content.left .text {
+    margin-left: 16px;
+}
+
+.content.right .text {
+    margin-right: 16px;
+}
+
+footer {
+    margin: 64px 0 96px 0;
 }
 
 .footer-inner {
